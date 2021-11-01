@@ -1,0 +1,61 @@
+# mission completion strategy
+
+# First: Sensors and motors used:
+
+# A - The color sensor is installed in port No. (3) directed downward, sensing the red or blue color.
+
+# B - The color sensor is installed in port No. (2) directed forward, sensing the color red or green.
+
+# C- The gyro sensor is installed next to the robot in port No. (1) to determine the degree of rotation of the robot at the angle on the track.
+
+# d- The large motor to which the rear tires are installed is installed in port
+
+# A
+
+# and this motor continues to operate throughout the robot&#39;s running in the three laps on the track
+
+# C - The directional actuator with which the front wheels are installed is installed in the port
+
+# D
+
+# These two kilns are distinguished by their ability to roll to the right and to the left\&gt;
+
+# H- The length of the robot is 27 cm, its height is 17 cm, and its width is 14 cm
+
+# Second: The mechanism of work on the track floor:
+
+# A- If the movement is clockwise
+
+# The robot moves straight on the white colored part of the track until the color sensor directed downward senses the red (orange) color in the first corner. And moving forward in the white area on the track, until the color sensor senses the red (orange) color in the second corner on the track, and the robot begins to rotate clockwise to the right, until it crosses the blue color and then adjusts the direction of the tires to move straight in the white-colored parts on the track
+
+# The track until the color sensor directed downward senses the red (orange) color in the third corner. The robot begins to rotate clockwise to the right at a certain angle determined by the rotation sensor, until it exceeds the blue color. Then the movement of the tires is adjusted for straight movement and forward in the white area on the track, until The color sensor senses the red (orange) color in the fourth corner on the track, and the robot begins to rotate clockwise to the right, until it crosses the blue color, then adjusts the direction of the tires to move straight in the white-colored parts on the track
+
+# These actions are performed for the robot during one round and are repeated twelve times for three rounds on the track.
+
+# b -If the movement is in a counterclockwise direction
+
+# The robot moves straight on the white colored part of the track until the color sensor directed downward senses the blue color in the first corner. The robot begins to rotate counterclockwise towards the left at a certain angle determined by the rotation sensor, until it exceeds the red (orange) color, then the movement is adjusted to the tires for movement straight line and move forward in the white area on the track, until the color sensor senses the blue color in the second corner on the track, and the robot starts turning left counterclockwise, until the color exceeds
+
+#
+
+# The red color then adjusts the direction of the tires to move straight in the white colored part on the track, until the color sensor directed downward senses the blue color in the third corner. The movement of the tires is adjusted for straight movement and forward progress in the white area on the track, until the color sensor senses the blue color in the fourth corner on the
+
+#
+
+# On the track, the robot begins to rotate to the left counterclockwise, until it crosses the red color, then adjusts the direction of the tires to move straight in the white colored part on the track and return to the starting area
+
+# These actions are performed during one round and twelve times for three rounds on the track.
+
+# C- Bypassing the red and green traffic signs
+
+# Using the forward-facing color sensor, the red color is sensed by turning to the right, then a waiting command, then completing its progress.
+
+# d- The program used for programming and how to download it:
+
+# The following program was used to make programming (building block method)
+
+# https://education.lego.com/en-us/downloads/mindstorms-ev3/software
+
+# After the programming is completed, the project is named, saved, and then downloaded to the EV3 robot via Bluetooth or cable
+
+# Then run the project from the Files section and then Programs in Android.
